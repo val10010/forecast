@@ -57,7 +57,7 @@ export function itemsTempLastCity(temp){
 export function itemsFetchData(city='london') {
   return (dispatch) => {
       dispatch(itemsIsLoading(true));
-      fetch(`http://api.apixu.com/v1/forecast.json?key=ce224de9bc074a68bea221550192103&q=${city}&days=7`)
+      fetch(`https://api.apixu.com/v1/forecast.json?key=ce224de9bc074a68bea221550192103&q=${city}&days=7`)
           .then((response) => {
               if (!response.ok) {
                   throw Error(response.statusText);

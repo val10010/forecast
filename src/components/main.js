@@ -93,12 +93,12 @@ class Main extends Component {
           return (
           <span onClick={() => this.handleChangeCity(index)} 
                 key={item.location.name + index}>
-                {item.location.name}
+                {item.location.name}<span> </span>
           </span>
         )})}
       </div>
       <div className="city">
-       <NavLink to="forecast">{location.name}</NavLink> 
+       <NavLink to="forecast-for-5day">{location.name}</NavLink> 
       </div>
       <div className="weather-block">
         <div className="weather-data">

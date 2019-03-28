@@ -1,0 +1,13 @@
+{
+  "main.css": "/forecast/static/css/main.afeee2a6.chunk.css",
+  "main.js": "/forecast/static/js/main.25c96193.chunk.js",
+  "main.js.map": "/forecast/static/js/main.25c96193.chunk.js.map",
+  "runtime~main.js": "/forecast/static/js/runtime~main.1c70b54c.js",
+  "runtime~main.js.map": "/forecast/static/js/runtime~main.1c70b54c.js.map",
+  "static/js/2.c2966d67.chunk.js": "/forecast/static/js/2.c2966d67.chunk.js",
+  "static/js/2.c2966d67.chunk.js.map": "/forecast/static/js/2.c2966d67.chunk.js.map",
+  "index.html": "/forecast/index.html",
+  "precache-manifest.be49dab037e21384ab6ec846b394a012.js": "/forecast/precache-manifest.be49dab037e21384ab6ec846b394a012.js",
+  "service-worker.js": "/forecast/service-worker.js",
+  "static/css/main.afeee2a6.chunk.css.map": "/forecast/static/css/main.afeee2a6.chunk.css.map"
+}
