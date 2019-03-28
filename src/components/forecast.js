@@ -9,10 +9,11 @@ class Forecast extends Component {
     return (
       <>
         <NavLink exact to="/">
-          <button>back</button>
+          <button className="forecast-button">back</button>
         </NavLink>
+        <div className="forecast-container">
         { forecast.map(data => (
-        <div className="weather-data" key={data.date}>
+        <div className="forecast-data" key={data.date}>
           <div className="wrap-data">
             <div className="date-block">
               {data.date}
@@ -25,7 +26,7 @@ class Forecast extends Component {
           <div className="condition">
             <img src={data.day.condition.icon} alt={data.day.condition.text} />
           </div>
-          <table className="table-time">
+          <table style={{textAlign: 'center', marginTop: '15px'}}>
             <thead>
               <tr>
                 <td>Средняя вложность</td>
@@ -41,6 +42,7 @@ class Forecast extends Component {
           </table>
         </div>
          ))}
+        </div>
       </>
     );
   }

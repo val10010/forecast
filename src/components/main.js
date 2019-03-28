@@ -9,10 +9,6 @@ class Main extends Component {
     location: [],
   };
 
-  componentDidMount() {
-    // this.props.fetchData();
-  }
-
   handleChange = value => {
     this.setState({
       inputValue: value
@@ -58,7 +54,11 @@ class Main extends Component {
 
     if(!isHasData){
       return (
-        <div>
+        <div className="main-form">
+          <h2 style={{textAlign: 'center', color: 'white', marginBottom: '20px'}}>
+          Welcome to the site forecast wether.
+            Enter your city:
+          </h2>
            <form onSubmit={event => this.handleSubmit(event)}>
           <input
             type="text"
@@ -67,15 +67,13 @@ class Main extends Component {
             placeholder="Enter city:"
             className="main-input"
           />
-          <button className="main-button">Search</button>
         </form>
-          <h2>Enter your city:</h2>
         </div>
       )
     }
     return (
       <>
-      <div>
+      <div className="main-form">
         <form onSubmit={event => this.handleSubmit(event)}>
           <input
             type="text"
@@ -84,7 +82,6 @@ class Main extends Component {
             placeholder="Enter city:"
             className="main-input"
           />
-          <button className="main-button">Search</button>
         </form>
       </div>
       <div className="last-city">
@@ -98,7 +95,7 @@ class Main extends Component {
         )})}
       </div>
       <div className="city">
-       <NavLink to="forecast-for-5day">{location.name}</NavLink> 
+         {location.name}
       </div>
       <div className="weather-block">
         <div className="weather-data">
@@ -149,6 +146,11 @@ class Main extends Component {
               </tbody>
             </table>
         </div>
+        <NavLink to="forecast-for-7day" className="city-link">
+           <button className="forecast-button">
+              forecast for 7 day
+          </button>
+        </NavLink> 
       </div>
      </>
     );
