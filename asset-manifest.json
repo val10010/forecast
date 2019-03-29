@@ -1,13 +1,13 @@
 {
   "main.css": "/forecast/static/css/main.080a90a6.chunk.css",
-  "main.js": "/forecast/static/js/main.7cac3ba2.chunk.js",
-  "main.js.map": "/forecast/static/js/main.7cac3ba2.chunk.js.map",
+  "main.js": "/forecast/static/js/main.3d81375a.chunk.js",
+  "main.js.map": "/forecast/static/js/main.3d81375a.chunk.js.map",
   "runtime~main.js": "/forecast/static/js/runtime~main.1c70b54c.js",
   "runtime~main.js.map": "/forecast/static/js/runtime~main.1c70b54c.js.map",
   "static/js/2.c2966d67.chunk.js": "/forecast/static/js/2.c2966d67.chunk.js",
   "static/js/2.c2966d67.chunk.js.map": "/forecast/static/js/2.c2966d67.chunk.js.map",
   "index.html": "/forecast/index.html",
-  "precache-manifest.aa5ecf93b58048f4191637762cbfdb25.js": "/forecast/precache-manifest.aa5ecf93b58048f4191637762cbfdb25.js",
+  "precache-manifest.5c6ecc502730b36a5d25d4d047644c11.js": "/forecast/precache-manifest.5c6ecc502730b36a5d25d4d047644c11.js",
   "service-worker.js": "/forecast/service-worker.js",
   "static/css/main.080a90a6.chunk.css.map": "/forecast/static/css/main.080a90a6.chunk.css.map",
   "static/media/App.css": "/forecast/static/media/fog-2.b26a32e4.png"
