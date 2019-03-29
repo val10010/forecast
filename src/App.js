@@ -9,14 +9,14 @@ class App extends Component {
     return (
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <>
-          <section class="fog">
+          <section className="fog">
             <figure
-              class="absolute-bg"
+              className="absolute-bg"
               style={{backgroundImage: 'url("/1600x900")'}}
             />
-            <div class="fog__container">
-              <div class="fog__img fog__img--first" />
-              <div class="fog__img fog__img--second" />
+            <div className="fog__container">
+              <div className="fog__img fog__img--first" />
+              <div className="fog__img fog__img--second" />
             </div>
           </section>
           <div className="main">
