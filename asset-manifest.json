@@ -1,13 +1,13 @@
 {
   "main.css": "/forecast/static/css/main.9dc5f0bc.chunk.css",
-  "main.js": "/forecast/static/js/main.6f35917d.chunk.js",
-  "main.js.map": "/forecast/static/js/main.6f35917d.chunk.js.map",
+  "main.js": "/forecast/static/js/main.16315c21.chunk.js",
+  "main.js.map": "/forecast/static/js/main.16315c21.chunk.js.map",
   "runtime~main.js": "/forecast/static/js/runtime~main.1c70b54c.js",
   "runtime~main.js.map": "/forecast/static/js/runtime~main.1c70b54c.js.map",
-  "static/js/2.c2966d67.chunk.js": "/forecast/static/js/2.c2966d67.chunk.js",
-  "static/js/2.c2966d67.chunk.js.map": "/forecast/static/js/2.c2966d67.chunk.js.map",
+  "static/js/2.74d125ab.chunk.js": "/forecast/static/js/2.74d125ab.chunk.js",
+  "static/js/2.74d125ab.chunk.js.map": "/forecast/static/js/2.74d125ab.chunk.js.map",
   "index.html": "/forecast/index.html",
-  "precache-manifest.29518aa5f868723581025886eb0f4100.js": "/forecast/precache-manifest.29518aa5f868723581025886eb0f4100.js",
+  "precache-manifest.c4a7f15be7aeabe322c782b2ffd8fd3a.js": "/forecast/precache-manifest.c4a7f15be7aeabe322c782b2ffd8fd3a.js",
   "service-worker.js": "/forecast/service-worker.js",
   "static/css/main.9dc5f0bc.chunk.css.map": "/forecast/static/css/main.9dc5f0bc.chunk.css.map",
   "static/media/App.css": "/forecast/static/media/fog-2.b26a32e4.png"
