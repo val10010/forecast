@@ -19,7 +19,7 @@ class App extends Component {
               <div className="fog__img fog__img--second" />
             </div>
           </section>
-          <div className="main">
+          <div>
             <Switch>
               <Route exact path="/" component={Main} />
               <Route exact path="/forecast-for-7day" component={Forecast} />

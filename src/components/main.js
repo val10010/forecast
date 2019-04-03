@@ -17,6 +17,7 @@ class Main extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
+    if(!this.state.inputValue) return;
     this.props.fetchData(this.state.inputValue);
     this.setState({ inputValue: "" });
   };
@@ -72,7 +73,7 @@ class Main extends Component {
       )
     }
     return (
-      <>
+      <div className="main">
       <div className="main-form">
         <form onSubmit={event => this.handleSubmit(event)}>
           <input
@@ -152,7 +153,7 @@ class Main extends Component {
           </button>
         </NavLink> 
       </div>
-     </>
+     </div>
     );
   }
 }
