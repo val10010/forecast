@@ -69,7 +69,6 @@ export function itemsFetchData(city='london') {
           })
           .then((response) => response.json())
           .then((items) => {
-            console.log(items);
             dispatch(isHasData(true))
             dispatch(itemsTempLastCity(items))
             dispatch(itemsFetchDataCurrent(items.current))

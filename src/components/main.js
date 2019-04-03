@@ -17,7 +17,8 @@ class Main extends Component {
 
   handleSubmit = event => {
     event.preventDefault();
-    if(!this.state.inputValue) return;
+    let value = this.state.inputValue.trim();
+    if(!value) return;
     this.props.fetchData(this.state.inputValue);
     this.setState({ inputValue: "" });
   };
@@ -46,11 +47,11 @@ class Main extends Component {
     const { current, location, hasErrored, isLoading, condition, temp, isHasData} = this.props;
     const { inputValue } = this.state;
     if (hasErrored) {
-      return <p>Sorry! There was an error loading the items</p>;
+      return <p className="wrapper">Sorry! There was an error loading the items</p>;
     }
 
     if (isLoading) {
-      return <p>Loading…</p>;
+      return <p className="wrapper">Loading…</p>;
     }
 
     if(!isHasData){

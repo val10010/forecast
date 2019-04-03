@@ -73,13 +73,10 @@ export function temp(state=[], action) {
     case 'ITEMS_TEMP_LAST_CITY': 
     let newState = state.filter((item,index) => {
         if(item.location.name === state[index].location.name){
-          console.log(item.location.name, state[index].location.name , 'iffffff');
             return ;
         }
         return item;
      });
-
-     console.log(newState, 'result');
       let currentTemp = [...state, action.temp ];
      return  currentTemp.length === 6 ? currentTemp.slice(1) : currentTemp;
     default: 

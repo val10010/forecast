@@ -5,6 +5,12 @@
   padding: 0;
 }
 
+.wrapper {
+  position: relative;
+  text-align: center;
+  top: 165px;
+  font-size: 25px;
+}
 
 .main {
   width: 400px;
